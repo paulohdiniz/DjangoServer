@@ -1,18 +1,31 @@
-1) Cria pasta do projeto
-
-2) Verifica qual variavel do python (se é py3, python, python3 etc), pip (pip ou pip3) e se virtualenv está ok (pipx list).
-
-3) Se o virtualenv não estiver instalado e verifica depois com pipx list.
+<ol type="1">
+	<li>Cria pasta do projeto</li>
+	<li>Verifica qual variavel do python (se é py3, python, python3 etc), pip (pip ou pip3) e se virtualenv está ok (pipx list).</li>
+	<li> Se o virtualenv não estiver instalado e verifica depois com pipx list.
 	pipx install virtualenv
+	OBS: Esse pipx é pra indicar que é pip ou pip3.
 
-OBS: Esse pipx é pra indicar que é pip ou pip3.
+	OBS: Eu evitei instalar o virtualenvwrapper-win porque quando tentei deu muito
+	problema.
 
-OBS: Eu evitei instalar o virtualenvwrapper-win porque quando tentei deu muito
- problema.
+	OBS:	python -m pip install openpyxl  é equivalente a pip install openpyxl. 
+	Algumas pessoas preferem a primeira forma como garantia de qual versão do pip 
+	será executada e onde os módulos serão instalados.
+</li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
 
-OBS:	python -m pip install openpyxl  é equivalente a pip install openpyxl. 
-Algumas pessoas preferem a primeira forma como garantia de qual versão do pip 
-será executada e onde os módulos serão instalados.
+</ol>
+
+
+
+
+
 
 4) Cria o virtual env.
 	virtualenv NOMEDAENV
