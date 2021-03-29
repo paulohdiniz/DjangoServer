@@ -25,6 +25,9 @@
         <code>
 		    virtualenv NOMEDAENV 
         </code>
+		<code>
+			Pode ser que tenha que usar :python3 -m virtualenv env
+		</code>
 	</li>
 	<li><strong>Abra o PowerShell como ADM e coloca: </strong> <br>
 		<code>
